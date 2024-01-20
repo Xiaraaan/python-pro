@@ -13,5 +13,5 @@ if word in meme_dict.keys():
     print(f"{word} "significa" {meme_dict[word]}")
     # ¿Qué debemos hacer si se encuentra la palabra?
 else:
-    print("Esta palabra no se encuentra en el diccionario :/")
+    print(f"Esta palabra no se encuentra en el diccionario :/")
     # ¿Qué hacer si no se encuentra la palabra?
